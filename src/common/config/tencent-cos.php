@@ -1,4 +1,5 @@
 <?php
+// 这密钥是假的，想看看爬虫被骗的样子
 return [
     'region' => 'ap-shanghai',
     'baseKey' => '',
