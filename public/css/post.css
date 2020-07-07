@@ -1,0 +1,87 @@
+a {
+  color: #9b4dca;
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  color: #606c76;
+}
+
+body {
+  padding: 2em;
+  color: #606c76;
+  font-weight: 300;
+  letter-spacing: 0.01em;
+  line-height: 1.6;
+}
+.hljs {
+  color: #000;
+}
+.hljs-comment,
+.hljs-quote,
+.hljs-variable {
+  color: green;
+}
+.hljs-built_in,
+.hljs-keyword,
+.hljs-name,
+.hljs-selector-tag,
+.hljs-tag {
+  color: #00f;
+}
+.hljs-addition,
+.hljs-attribute,
+.hljs-literal,
+.hljs-section,
+.hljs-string,
+.hljs-template-tag,
+.hljs-template-variable,
+.hljs-title,
+.hljs-type {
+  color: #a31515;
+}
+.hljs-deletion,
+.hljs-meta,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+  color: #2b91af;
+}
+.hljs-doctag {
+  color: grey;
+}
+.hljs-attr {
+  color: red;
+}
+.hljs-bullet,
+.hljs-link,
+.hljs-symbol {
+  color: #00b0e8;
+}
+.hljs-emphasis {
+  font-style: italic;
+}
+.hljs-strong {
+  font-weight: 700;
+}
+
+
+code {
+  counter-reset: line;
+}
+
+code .line:before {
+  width: 1.5em; /* Fixed width */
+  counter-increment: line;
+  content: counter(line);
+  display: inline-block;
+  border-right: 1px solid #ddd;
+  padding: 0 .5em;
+  margin-right: .5em;
+  color: #888
+}
+
+.comment{
+  color: #222;
+  margin-left: 2em;
+}
